@@ -1,0 +1,32 @@
+.left {
+    justify-self: start;
+}
+.upperBar {
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 5vh;
+    overflow: hidden;
+}
+.navBar {
+    list-style-type: none;
+    align-items: stretch;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.navBar ul {
+    display: flex;
+    margin-inline: 0em;
+    padding-inline: 1em;
+    min-width: 6em;
+    justify-content: center;
+}
+.navBar li > ul{
+    display: none;
+}
+.navBar li > ul:hover {
+    display: block;
+    background-color: red;
+}
