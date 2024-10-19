@@ -2,3 +2,40 @@
 .bg-navbar {
     background-color: #6ea8fe;
 }
+.pagesNavigator {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.pagesNavigator > * {
+    margin-inline: 1vw;
+    margin-bottom: 5px;
+}
+
+.mainGallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mainGallery img{
+    width: 15%;
+    margin: 10px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1650px){
+    .mainGallery img {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 999px){
+    .mainGallery img {
+        width: 45%;
+    }
+}
+
