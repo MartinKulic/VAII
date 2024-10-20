@@ -25,11 +25,16 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.mainGallery img{
-    width: 15%;
+.mainGallery > div{
+    width: 18%;
     margin: 10px;
+}
+
+.mainGallery img{
+    width: 100%;
     object-fit: contain;
 }
+
 .sideBar {
     background-color: #052c65;
 
@@ -37,13 +42,13 @@
 }
 
 @media screen and (max-width: 1650px){
-    .mainGallery img {
-        width: 25%;
+    .mainGallery > div {
+        width: 30%;
     }
 }
 
 @media screen and (max-width: 999px){
-    .mainGallery img {
+    .mainGallery > div {
         width: 45%;
     }
     .sideBar {
