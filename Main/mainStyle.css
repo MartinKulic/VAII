@@ -1,6 +1,10 @@
 
 .bg-navbar {
-    background-color: #6ea8fe;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(83,132,205,1) 40%,  rgba(2,0,36,1) 90%);
+}
+.navbar img {
+    width: 40px;
 }
 .pagesNavigator {
     text-align: center;
@@ -26,6 +30,10 @@
     margin: 10px;
     object-fit: contain;
 }
+.sideBar {
+    background-color: #052c65;
+    min-height: 85vh;
+}
 
 @media screen and (max-width: 1650px){
     .mainGallery img {
@@ -37,5 +45,10 @@
     .mainGallery img {
         width: 45%;
     }
+    .sideBar {
+        min-height: auto;
+    }
 }
+
+
 
