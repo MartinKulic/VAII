@@ -1,0 +1,31 @@
+.bg-image-blur {
+    height: 100vh;
+    width: 100%;
+
+    opacity: 0.9;
+
+    filter: blur(20px);
+    -webkit-filter: blur(20px);
+}
+.bg-image-blur img {
+    height: 100%;
+    width: 100%;
+
+    opacity: 70%;
+
+    object-fit: cover;
+}
+
+.field {
+    background-color: #000000a0;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 20px;
+    text-align: center;
+}
